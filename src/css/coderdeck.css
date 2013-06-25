@@ -72,8 +72,8 @@ html, body {
 }
 
 .deck-container .instructor_holder {
-  width: 400px;
-  margin: 150px auto 0 auto;
+  width: 300px;
+  margin: 100px auto 0 auto;
   text-align: left;
 }
 .deck-container .instructor_holder h2 {
