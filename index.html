@@ -803,7 +803,7 @@ img {
 </code></pre>
         <li>And your CSS something like this:</li>
 <pre><code class="language-css">
-img.profile {
+.profile {
   border: 1px solid grey;
   width: 200px;
   height:200px;  
@@ -818,9 +818,10 @@ img.profile {
       <ul>
         <li>We can do the same thing to style our "favourite things" images</li>
         <li>Since we probably want all four images to have the same styles, we can add the same class to each</li>
-        <li>Add a class of "favourite" to each of the four images</li>
+        <li>Add a class of "fav-item" to each of the four images</li>
 <pre><code class="language-markup">
-&lt;img class="favourite" src="images/kitten.jpg" >
+&lt;img class="fav-item" src="images/kitten.jpg" 
+alt="A cute kitten"&gt;
 </code></pre>   
         <li>Add some styles to your images</li>     
         <li>Things like <code>width, height</code>, and <code>border</code></li>        
