@@ -1,9 +1,8 @@
 Ladies Learning Code HTML/CSS Workshop Slides
 =============================================
-Presented by Tiffany Tse, June 2013 Workshop in Ottawa @ [Shopify](http://www.shopify.ca/).
+Presented by Tiffany Tse for National "Learn to Code" Day: Intro to HTML & CSS in Ottawa @ [Shopify](http://www.shopify.ca/).
 
-Presentation materials updated by [Heather Payne](http://twitter.com/heatherpayne) and [Tessa Thornton](http://twitter.com/tessthornton) for June 2013 Workshop in Toronto. 
-Forked from [Pearl Chen's awesome original presentation](https://github.com/pchen/LLC-HTML-CSS).
+Presentation materials by [Heather Payne](http://twitter.com/heatherpayne), [Tessa Thornton](http://twitter.com/tessthornton) and [Pearl Chen](https://github.com/pchen/LLC-HTML-CSS).
 
 View slides online at [tiffanytse.github.io/LLC-HTML-CSS/](http://tiffanytse.github.io/LLC-HTML-CSS/).
 
