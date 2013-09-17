@@ -781,7 +781,7 @@ img {
       <ul>
         <li>Add some style to your profile image!</li>
         <li>Add a class of <code>profile</code> to the tag for your profile image</li>
-        <li>Target that class in your CSS with the selector <code>img.profile</code></li>
+        <li>Target that class in your CSS with the selector <code>.profile</code></li>
         <li>Then add a border of any color you like</li>
         <li>If your picture is too big, you can resize it using the <code>width</code> and <code>height</code> properties, which are specified in <code>px</code> (pixels). Try 200 x 200 px.</li>
 <pre><code class="language-css">
@@ -1181,15 +1181,15 @@ section img {}
       <ul>
         <li>To target the <code>&lt;p></code> tag within the banner <code>&lt;section></code>, we use:</li>
 <pre><code class="language-css">
-section.banner p {}  
+.banner p {}  
 </code></pre>     
         <li>Increase the <code>font-size</code> of the selected <code>&lt;p></code> tag</li>   
         <li>Select the <code>&lt;h1></code> tag in the banner section in the same way and capitalize the text using <code>text-transform: uppercase;</code></li>
 <pre><code class="language-css">
-section.banner p {
+.banner p {
   font-size: 18px;
 }
-section.banner h1 {
+.banner h1 {
   text-transform: uppercase;
 }
 </code></pre>        
@@ -1222,7 +1222,7 @@ section.banner h1 {
         <li>Download an image you like and save it to your <strong>images</strong> folder</li>
         <li>Add the image as a background to the about section</li>
 <pre><code class="language-css">
-section.about {
+.about {
   background: url('images/pattern.png');
 }
 </code></pre>        
@@ -1236,11 +1236,11 @@ section.about {
         <li>We want the heading for this section to be centre-aligned</li>
         <li>So let's select it with a child selector:</li>
 <pre><code class="language-css">
-section.about h2 {}
+.about h2 {}
 </code></pre>
         <li>And centre-align it with <code>text-align: center;</code></li>
 <pre><code class="language-css">
-section.about h2 {
+.about h2 {
   text-align: center;
 }
 </code></pre>        
@@ -1266,7 +1266,7 @@ section.about h2 {
       <ul>
         <li>We already wrote the selector for our profile <code>&lt;img></code>, so let's add the declaration <code>float: left;</code> to it:</li>
 <pre><code class="language-css">
-img.profile {
+.profile {
   float: left;
 }
 </code></pre> 
@@ -1284,7 +1284,7 @@ img.profile {
         <li>We do this by adding <code>overflow: hidden;</code> to the parent element (<code>&lt;section class="about"></code>)</li>
         <li><code>overflow: hidden;</code> forces the element to 'contain' any floated children, so that they don't disrupt the elements after them</li>
 <pre><code class="language-css">
-section.about {
+.about {
   overflow: hidden;
 }
 </code></pre>        
