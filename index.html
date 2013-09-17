@@ -1302,10 +1302,10 @@ section img {}
 &lt;section class="favourites">
   &lt;h2>...&lt;/h2>
   &lt;h3>...&lt;/h3>
-  &lt;img class="favourite" src="images/kitten.jpg">
-  &lt;img class="favourite" src="images/kitten.jpg">
-  &lt;img class="favourite" src="images/kitten.jpg">
-  &lt;img class="favourite" src="images/kitten.jpg">
+  &lt;img class="fav-item" src="images/kitten.jpg">
+  &lt;img class="fav-item" src="images/kitten.jpg">
+  &lt;img class="fav-item" src="images/kitten.jpg">
+  &lt;img class="fav-item" src="images/kitten.jpg">
 &lt;/section>
 </code></pre>        
       </ul>
@@ -1317,11 +1317,11 @@ section img {}
       <ul>
         <li>Let's write a selector for the section we just created:</li>
 <pre><code class="language-css">
-section.favourites {}  
+.favourites {}  
 </code></pre>
         <li>And centre-align it:</li>        
 <pre><code class="language-css">
-section.favourites {
+.favourites {
   text-align: center;
 }
 </code></pre>        
@@ -1353,11 +1353,11 @@ section.favourites {
 </code></pre>
         <li>And your CSS:</li>        
 <pre><code class="language-css">
-section.contact {
+.contact {
   text-align: center;
   background: url('images/tile2.png');
 }
-section.contact img {
+.contact img {
   margin: 20px;
 }
 </code></pre>        
@@ -1386,11 +1386,11 @@ section.contact img {
       <ul>
         <li>Let's write a selector for our new class:</li>
 <pre><code class="language-css">
-section.box {}
+.box {}
 </code></pre>
         <li>And add a bunch of padding to all our sections:</li>        
 <pre><code class="language-css">
-section.box {
+.box {
   padding: 50px 100px;
 }
 </code></pre>        
@@ -1403,11 +1403,11 @@ section.box {
         <li>We can also use our <code>box</code> class to target the headings in each of these sections</li>
         <li>Since we're targeting both our <code>&lt;h2></code> and <code>&lt;h3></code> tags, we'll write a selector for both, separating them with a comma:</li>
 <pre><code class="language-css">
-section.box h2, section.box h3 {}
+.box h2, .box h3 {}
 </code></pre>        
         <li>And change the colour of our headings:</li>
 <pre><code class="language-css">
-section.box h2, section.box h3 {
+.box h2, .box h3 {
   color: #A8258D;
 }
 </code></pre>        
@@ -1426,7 +1426,7 @@ section.box h2, section.box h3 {
       <ul>
         <li>To get that trendy effect where your background image stays put while you scroll, you can adjust the <code>background-attachment</code> property:</li>
 <pre><code class="language-css">
-section.banner {
+.banner {
   background-attachment: fixed;
 }
 </code></pre>        
