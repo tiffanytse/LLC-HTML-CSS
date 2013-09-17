@@ -1040,7 +1040,7 @@ img {
         <li>Because our logo element is only as wide as the image, we can't centre it relative to the page</li>
         <li>Luckily, this is easy to fix: we just tell the <code>&lt;img></code> tag to behave like a block element instead, by setting the <code>display</code> property</li>
 <pre><code class="language-css">
-img.logo {
+.logo {
   margin: 0 auto;
   display: block;
 }
@@ -1091,11 +1091,11 @@ img.logo {
       <ul>
         <li>Target our new <code>&lt;section></code> with a selector in your CSS</li>
 <pre><code class="language-css">
-section.banner {}  
+.banner {}  
 </code></pre>        
         <li>Add some padding to the top and bottom of the section to give our logo and text some space</li>
 <pre><code class="language-css">
-section.banner {
+.banner {
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -1131,7 +1131,7 @@ background-image: url('images/background.jpg');
       <ul>
         <li>Your CSS should look like this:</li>
 <pre><code class="language-css">
-section.banner {
+.banner {
   background: url('images/background.jpg');
   color: #ffffff;
   text-align: center;
